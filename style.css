@@ -1,0 +1,71 @@
+body {
+    background: black;
+    color: white;
+    font: 10pt Helvetica;
+}
+
+button {
+    background: #48c;
+    color: white;
+    border: 1px solid white;
+    margin: 4px 0 0 4px;
+}
+
+button:disabled {
+    opacity: 0.4;
+}
+
+.editor, .toolbar, .propertyPalette, .paper {
+    position: absolute;
+}
+
+.editor, .toolbar, .paper {
+    left: 0;
+}
+
+.editor, .toolbar {
+    top: 0;
+}
+
+.editor, .toolbar, .propertyPalette {
+    right: 0;
+}
+
+.editor, .propertyPalette, .paper {    
+    bottom: 0;
+}
+
+.toolbar {
+    height: 26px;
+}
+
+.paper, .propertyPalette {
+    top: 26px;
+}
+
+.propertyPalette {
+    width: 25%;
+    background: #222;
+}
+
+.paper {
+    right: 25%;
+}
+
+.property {
+    margin: 6px 6px 12px 6px;
+}
+
+.propertyLabel {
+    color: #48c;
+    margin-bottom: 4px;
+}
+
+button.selected {
+    color: #48c;
+    background: white;
+}
+
+.separator {
+    padding: 4px;
+}
