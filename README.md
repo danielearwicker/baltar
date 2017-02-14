@@ -3,7 +3,24 @@ Example graphics editor using MobX
 
 ![Demo](demo.gif)
 
-Start at [src/index.tsx](https://github.com/danielearwicker/baltar/blob/master/src/index.tsx) and work your way down.
+To play with it, you will need:
+
+* a browser (Chrome, Safari, Edge, Firefox)
+* [Git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/)
+
+In a Terminal (Mac/Linux) or Command line (Windows):
+
+```bash
+git clone https://github.com/danielearwicker/baltar.git
+cd baltar
+npm install
+node fuse.js
+```
+
+Then go to [localhost:4444](http://localhost:4444) in your browser .
+
+To read the code, start at [src/index.tsx](https://github.com/danielearwicker/baltar/blob/master/src/index.tsx) and work your way down the JSX rendering.
 
 We create an `EditorModel`, load any previous state into it from `localStorage`, wire it up to the `Undo` system, and then render the `Editor`.
 
